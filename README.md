@@ -1,3 +1,1 @@
-# geekshop-template
-
-Template for Django course of GeekBrains
+# Мой джанго проект на ГБ
