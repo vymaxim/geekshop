@@ -3,12 +3,14 @@ import os
 from datetime import datetime
 from .models import Product, ProductCategory
 
+
 from django.shortcuts import render
 
 MODULE_DIR = os.path.dirname(__file__)
 
 # Create your views here.
 
+from django.contrib.auth.decorators import login_required
 
 def index(request):
     context = {
